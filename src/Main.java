@@ -88,8 +88,19 @@ public class Main {
         else
             System.out.println(number + " is odd");
         System.out.println("-----------------------------------------------");
+
+        char c = 'i';
+
+
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+            System.out.println(c + " is a vowel ");
+        } else {
+            System.out.println(c + " is a consonant ");
+            System.out.println("-----------------------------------------------");
+        }
     }
 }
+
 
 
 
