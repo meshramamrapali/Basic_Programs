@@ -43,22 +43,28 @@ public class Main {
         System.out.println("Harmonic value = " + sum);
         System.out.println("-------------------------------------");
 
-
-       int my_input,i1;
+        int my_input, i1;
         my_input = 40;
-        System.out.println("The number is defined as " +my_input);
+        System.out.println("The number is defined as " + my_input);
         System.out.print("The factors of " + my_input + " are: ");
         for (i1 = 1; i1 <= my_input; ++i1) {
             if (my_input % i1 == 0) {
                 System.out.print(i1 + " ");
-
+                sc.nextLine();
 
 
             }
         }
+        System.out.println("--------------------------------------");
+
+        int dividend = 450, divisor = 8;
+        int quotient = dividend / divisor;
+        int remainder = dividend % divisor;
+
+        System.out.println("The Quotient is = " + quotient);
+        System.out.println("The Remainder is = " + remainder);
     }
 }
-
 
 
 
