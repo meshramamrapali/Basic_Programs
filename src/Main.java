@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Welcome to Basic Programs");
-        System.out.println("----------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         double head = 0, tail = 0;
         int numberOfAttempts = 5;
@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("Head Probability:" + (head) / numberOfAttempts);
         System.out.println("Tail Probability:" + (tail) / numberOfAttempts);
-        System.out.println("---------------------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         int year;
         System.out.println("Enter an Year :: ");
@@ -33,7 +33,7 @@ public class Main {
             System.out.println("Specified year is a leap year");
         else
             System.out.println("Specified year is not a leap year");
-        System.out.println("-------------------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         double n = 10, i;
         double sum = 0;
@@ -41,7 +41,7 @@ public class Main {
             sum = sum + (1 / i);
         }
         System.out.println("Harmonic value = " + sum);
-        System.out.println("-------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         int my_input, i1;
         my_input = 40;
@@ -55,7 +55,7 @@ public class Main {
 
             }
         }
-        System.out.println("--------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         int dividend = 450, divisor = 8;
         int quotient = dividend / divisor;
@@ -78,6 +78,16 @@ public class Main {
         System.out.println("--After swap--");
         System.out.println("First number = " + first);
         System.out.println("Second number = " + second);
+        System.out.println("-----------------------------------------------");
+
+        int number = 24;
+        System.out.println("Enter the number  are :");
+        //checking whether the number is even or odd
+        if (number % 2 == 0)
+            System.out.println(number + " is Even");
+        else
+            System.out.println(number + " is odd");
+        System.out.println("-----------------------------------------------");
     }
 }
 
