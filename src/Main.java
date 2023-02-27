@@ -91,13 +91,26 @@ public class Main {
 
         char c = 'i';
 
-
         if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
             System.out.println(c + " is a vowel ");
         } else {
             System.out.println(c + " is a consonant ");
-            System.out.println("-----------------------------------------------");
         }
+        System.out.println("-----------------------------------------------");
+
+        int num1 = 10, num2 = 20, num3 = 30;
+
+        //checking if num1 is greatest
+        if (num1 >= num2 && num1 >= num3)
+            System.out.println (num1 + " is the greatest");
+
+            //checking if num2 is greatest
+        else if (num2 >= num1 && num2 >= num3)
+            System.out.println (num2 + " is the greatest");
+
+            //checking if num2 is greatest
+        else if (num3 >= num1 && num3 >= num2)
+            System.out.println (num3 + " is the greatest");
     }
 }
 
