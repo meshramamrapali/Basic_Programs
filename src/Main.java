@@ -63,6 +63,21 @@ public class Main {
 
         System.out.println("The Quotient is = " + quotient);
         System.out.println("The Remainder is = " + remainder);
+        System.out.println("-----------------------------------------------");
+
+        int first = 24, second = 2;
+
+        System.out.println("--Before swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+
+        int temporary = first;
+        first = second;
+        second = temporary;
+
+        System.out.println("--After swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
     }
 }
 
